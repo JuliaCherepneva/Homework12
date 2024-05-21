@@ -10,9 +10,9 @@ public class Main {
         secondBook.setYearOfPublication(2022);
         System.out.println(secondBook.getBookTitle() + ". " + secondBook.getAuthor() + ", " + secondBook.getYearOfPublication());
 
-        Author firstAuthor = new Author("Ирвин", "Ялом");
+        Author firstAuthor = new Author("Роберт", "Мартин");
         System.out.println(firstAuthor.getFirstName() + " " + firstAuthor.getLastName());
-        Author secondAuthor = new Author("Зигмунд", "Фрейд");
+        Author secondAuthor = new Author("Герберт", "Шилдт");
         System.out.println(secondAuthor.getFirstName() + " " + secondAuthor.getLastName());
     }
 }
